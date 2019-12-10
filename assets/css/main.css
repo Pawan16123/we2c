@@ -26,8 +26,9 @@ section h1 {
 }
 .main-nav{
     display: inline-block;
-    float: right;
-    width: calc(100%-38.234px );
+    /* float: right; */
+    text-align: right;
+    width: calc(100% -  35.438px);
     
 }
 .main-nav__item{

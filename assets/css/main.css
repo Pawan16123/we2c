@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+html,body{height: 100%;}
+header{
+    background-color: #c3f584 ;
+    max-height: 100%;
+}
+
+section h1 {
+    color: white;
+    display: block;
+    background-color: #fe346e;
+    height: 80%;
+}
+
+.plan__title{
+    background-color: white;
+    color: #6fb98f;
+}
+
+.main-header{
+      background-color: #c3f584;
+      width: 100%;
+      padding: 20px 20px;
+}
+.main-nav{
+    display: inline-block;
+    float: right;
+    width: calc(100%-38.234px );
+    
+}
+.main-nav__item{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    /* list-style: none; */
+}
+
+.main-header>div{
+    display: inline-block;
+    /* background-color: rebeccapurple; */
+}

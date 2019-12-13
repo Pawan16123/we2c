@@ -96,7 +96,7 @@ p::first-letter, div::first-letter{
     border-top: 8px solid transparent;
 }
 .plan__title{
-    background-color: white;
+    background-color: #7d5fff;
     color: #6fb98f;
     /* transform: rotate(45deg); */
     

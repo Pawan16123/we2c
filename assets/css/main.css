@@ -81,7 +81,7 @@ p::first-letter, div::first-letter{
 }
 .main-nav__item--cta a{
     background-color: white;
-    border-radius: 20px;
+    border-radius: 3px;
     color: #7bed9f;
     padding: 8px 10px;
 }
@@ -100,4 +100,7 @@ p::first-letter, div::first-letter{
     color: #6fb98f;
     /* transform: rotate(45deg); */
     
+}
+section h1{
+    height: 1000px;
 }

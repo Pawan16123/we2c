@@ -1,5 +1,10 @@
 *{
     margin: 0;
+
+}
+li{
+    /* text-decoration: none; */
+    list-style: none;
 }
 html,body{height: 100%;}
 header{
@@ -26,10 +31,7 @@ header{
     vertical-align: middle;
 
 }
-p::first-letter, div::first-letter{
-    color: white !important;
 
-}
 .main-nav{
     display: inline-block;
     /* float: right; */
@@ -98,15 +100,71 @@ p::first-letter, div::first-letter{
     background-repeat: no-repeat;
     background-position: left top;
     background-size: cover;
-    height: 1000px;
+    /* height: 1000px; */
     
 }
 #product-overview h1{
     color: white;
 }
-.plan__title{
-    background-color: #7d5fff;
+
+/* Gods plan */
+
+.plan__header{
+    /* background-color: #7d5fff; */
     color: #6fb98f;
     /* transform: rotate(45deg); */
+    text-align: center;
+    margin: 25px 0;
+}
+.plan{
+    width: 30%;
+    height: 350px;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    background-color: #32ff7d;
+    margin: 1%;
+    padding: 25px 0;
+    border-radius: 10px;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    /* vertical-align: middle; */
+}
+.plan:nth-child(2){
+    /* height: 370px; */
+    transform: scaleY(1.05);
+    /* position: absolute; */
+    background-color: #02cf4a;
     
+}
+.plan:nth-child(2) button{
+    color: red;
+}
+.plan__title{
+    margin: 25px 0;
+}
+.plan__price{
+    color: #777676 ;   
+}
+.plan__title3{
+    margin: 15px 0;
+}
+.plan li{
+    text-align: center;
+    margin: 10px;
+}
+div div>button{
+    background-color: #45cf75;
+    padding: 10px;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 20px;
+    left: 96px;
+    border: none;
+
+}
+.plan ul{
+
+    padding: 0;
+
 }

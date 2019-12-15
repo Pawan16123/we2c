@@ -5,10 +5,6 @@
 }
 
 html,body{height: 100%;}
-header{
-    background-color: #c3f584 ;
-    max-height: 100%;
-}
 
 li{
     /* text-decoration: none; */
@@ -38,7 +34,7 @@ ul{
     color: #2f3542;
     font-family: 'Arial Narrow Bold', sans-serif;
     margin-left: 15px;
-    vertical-align: middle;
+    /* vertical-align: middle; */
 
 }
 
@@ -54,7 +50,7 @@ ul{
     margin: 0;
     padding: 0;
     text-align: left;
-    vertical-align: middle;
+    /* vertical-align: middle; */
     /* list-style: none; */
 }
 
@@ -78,7 +74,7 @@ ul{
     position: absolute;
     content: " ";
     color: red;
-    transform: scale(1) rotate(180deg);
+    /* transform: scale(1) rotate(180deg); */
     top: 23px;
     border-top: 8px solid black;
     border-left: 5px solid transparent;
@@ -252,6 +248,7 @@ div div>button:focus{
     text-align: center;
     /* position: relative; */
     margin: 5px;
+    /* background-color: red; */
 }
 .circle-me{
     height: 130px;
@@ -276,6 +273,32 @@ div div>button:focus{
 
 }
 
+footer{
+    background-color: black;
+    height: 100px;
+    text-align: center;
+    position: relativd;
+    /* vertical-align: middle; */
+}
+footer nav{
+    height: 30px;
+    /* position: absolute; */
+    vertical-align: middle;
+
+}
+
+footer li{
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 2.5%;
+}
+footer li a{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-decoration: none;
+}
 
 
 

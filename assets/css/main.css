@@ -1,19 +1,26 @@
+/* global */
 *{
     margin: 0;
 
 }
-li{
-    /* text-decoration: none; */
-    list-style: none;
-}
+
 html,body{height: 100%;}
 header{
     background-color: #c3f584 ;
     max-height: 100%;
 }
+
+li{
+    /* text-decoration: none; */
+    list-style: none;
+}
 /* .clear-both{
     clear: both;
 } */
+ul{
+    margin: 0;
+    padding: 0;
+}
 
 .main-header{
     background-color: #c3f584;
@@ -218,42 +225,55 @@ div div>button:focus{
 /* Stick Around */
 #stick-around{
     margin-top: 70px;
-    background-color: #fa9a9a ;
+    background-color: #ffa4d9ec ;
     padding: 50px 30px;
     overflow: hidden;
 }
+.stick{
+    text-align: center;
+}
+.stick ul li{
+    vertical-align: middle;
+}
 .stick h1{
     font-family : 'Arial Narrow Bold', sans-serif;
-    text-align: center;
+    /* text-align: center; */
     padding: 30px;
+    /* padding-left: 171px; */
     color: white;
-    
 }
+
 .stick li{
-    float: left;
-    width: 33%;
+    display: inline-block;
+    width: 31%;
+    position: relative;
+    min-height: 205px;
+    /* overflow: hidden; */
     text-align: center;
     /* position: relative; */
-
+    margin: 5px;
 }
 .circle-me{
-    height: 100px;
-    width: 25%;
-    background-color: yellow;
+    height: 130px;
+    max-width: 130px;
+    background-color: rgb(252, 252, 165);
     border-radius: 50%;
     border: 1px solid black;
-    margin: 0 50%;
-    float: left;
     overflow: hidden;
+    margin: 15px auto;
 }
+
 .circle-me+p{
     display: inline-block;
-    margin: 20px 50%;
+    /* margin: 20px 35%; */
     font-family: 'Arial Narrow Bold', sans-serif;
     font-weight: bolder;
     font-size: large;
-    /* overflow: wrap; */
-    white-space: nowrap;
+    overflow: hidden;
+    /* white-space: pre-line; */
+    width: 235px;
+    overflow-wrap: break-word;
+
 }
 
 
@@ -277,12 +297,3 @@ div div>button:focus{
 
 
 
-
-
-
-
-
-
-footer{
-    visibility: hidden;
-}

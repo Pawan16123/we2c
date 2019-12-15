@@ -12,6 +12,8 @@
     background-size: cover;
     /* height: 1000px; */
     text-align: center;
+    margin-top: 80px;
+    /* padding-top: 30px; */
     
 }
 #product-overview h1{
@@ -157,8 +159,6 @@
     overflow-wrap: break-word;
 
 }
-
-
 
 
 

@@ -30,12 +30,22 @@
 }
 
 .our-plan:last-child a{
-    background-color: green;
+    background-color: rgb(9, 134, 9);
 }
 
 .our-plan:nth-child(2) a{
     background-color: rgb(204, 236, 204);
+    transform: scaleX(1.05);
+}
+.our-plan:nth-child(1) a{
+    margin-top: 80px;
+
 }
 .our-plan:last-child h1{
     color: white;
+    text-shadow: 1px 1px 2px black;
+}
+.our-plan:last-child h2{
+    text-shadow: -1px 1px 4px black;
+    
 }

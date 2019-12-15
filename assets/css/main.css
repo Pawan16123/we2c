@@ -11,6 +11,9 @@ header{
     background-color: #c3f584 ;
     max-height: 100%;
 }
+/* .clear-both{
+    clear: both;
+} */
 
 .main-header{
     background-color: #c3f584;
@@ -68,12 +71,22 @@ header{
     position: absolute;
     content: " ";
     color: red;
-    /* transform: scale(1) rotate(180deg); */
+    transform: scale(1) rotate(180deg);
     top: 23px;
     border-top: 8px solid black;
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
 }
+
+/* .main-nav__item a::after{
+    position: absolute;
+    content: " ";
+    top: 15px;
+    padding: 5px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    transform: rotate(225deg);
+} */
 .main-nav__item--cta a{
     background-color: white;
     border-radius: 3px;
@@ -88,7 +101,7 @@ header{
 }
 .main-nav__item--cta a::after{
     content: " ";
-    border-top: 8px solid transparent;
+    border-top: 2px solid transparent;
 }
 
 #product-overview{
@@ -116,6 +129,12 @@ header{
     text-align: center;
     margin: 25px 0;
 }
+.justfix::after{
+    content: "";
+    clear: both;
+    display: table;
+
+}
 .plan{
     width: 30%;
     height: 350px;
@@ -129,24 +148,38 @@ header{
     font-family : 'Arial Narrow Bold', sans-serif;
     position: relative;
     /* vertical-align: middle; */
+    /* box-sizing: border-box; */
 }
+
 .plan:nth-child(2){
     /* height: 370px; */
-    transform: scaleY(1.05);
+    transform: scaleY(1.07);
     /* position: absolute; */
     background-color: #51dacf;
     color: white;
     box-shadow: 2px -1px 4px -1px black;
     
 }
+.plan:nth-child(2) .plan__title{
+    background-color: #1fb8d3;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 0px 0px black;
+}
 .plan:nth-child(2) button{
-    color: white;
+    color: rgb(80, 147, 201);
+
 }
 .plan__title{
+    color: #060461;
     margin: 25px 0;
 }
 .plan__price{
     color: #777676 ;   
+    margin: 10px 0;
 }
 .plan__title3{
     margin: 15px 0;
@@ -157,25 +190,71 @@ header{
 }
 div div>button{
     background-color: #1ebdaf7a;
-    padding: 10px;
+    padding: 15px;
     border-radius: 30px;
     position: absolute;
     bottom: 20px;
     left: 170px;
     border: none;
     font-weight: 900;
+    cursor: pointer ;
 
 }
+div div>button:hover,
+div div>button:active{
+    background: white;
+    /* color: black; */
+}
+div div>button:focus{
+    outline: none;
+}
+
 .plan ul{
 
     padding: 0;
 
 }
 
+/* Stick Around */
+#stick-around{
+    margin-top: 70px;
+    background-color: #fa9a9a ;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+.stick h1{
+    font-family : 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    
+}
+.stick li{
+    float: left;
+    width: 33%;
+    text-align: center;
+    /* position: relative; */
 
-
-
-
+}
+.circle-me{
+    height: 100px;
+    width: 25%;
+    background-color: yellow;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 0 50%;
+    float: left;
+    overflow: hidden;
+}
+.circle-me+p{
+    display: inline-block;
+    margin: 20px 50%;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    /* overflow: wrap; */
+    white-space: nowrap;
+}
 
 
 

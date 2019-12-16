@@ -62,10 +62,15 @@
 }
 
 h2.recom{
-    color: black;
+    color: white;
     position: absolute;
     top: 0;
     right: 0;
     font-family: sans-serif;
+    padding: 10px;
+    font-size: large;
+    margin: 15px;
+    background-color: coral;
+
 
 }

@@ -1,8 +1,10 @@
 
-/* .our-plans{
-    background-image: url(../imgs/plans-background.jpg);
+.container{
+    background: url(../imgs/plans-background.jpg) no-repeat 0 0;
+    background-size: stretch;
+    padding-top: 32px;
     background-attachment: fixed;
-} */
+}
 .our-plan a{
     text-decoration: none;
     padding :60px;
@@ -43,7 +45,8 @@
     transform: scaleX(1.05);
 }
 .our-plan:nth-child(1) a{
-    margin-top: 80px;
+    margin-top: 49px;
+    position: relative;
 
 }
 .our-plan:last-child h1{
@@ -56,4 +59,13 @@
 }
 .our-plan:last-child p{
     border: 1px solid black;
+}
+
+h2.recom{
+    color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: sans-serif;
+
 }

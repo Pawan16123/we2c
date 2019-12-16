@@ -18,10 +18,13 @@
     
 }
 #product-overview h1{
-    position: static;
+    position: relative;
     color: white;
     text-shadow: -2px -1px 15px black;
     padding-top: 20px;
+    top: 700px;
+    font-size: xx-large;
+    font-family: sans-serif;
 
 }
 

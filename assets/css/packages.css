@@ -31,6 +31,7 @@
 
 .our-plan:last-child a{
     background-color: rgb(9, 134, 9);
+
 }
 
 .our-plan:nth-child(2) a{
@@ -48,4 +49,7 @@
 .our-plan:last-child h2{
     text-shadow: -1px 1px 4px black;
     
+}
+.our-plan:last-child p{
+    border: 1px solid black;
 }

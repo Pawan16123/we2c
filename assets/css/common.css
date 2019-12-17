@@ -16,7 +16,12 @@ ul{
     margin: 0;
     padding: 0;
 }
+.justfix::after{
+    content: "";
+    clear: both;
+    display: table;
 
+}
 /* Navigation */
 
 .main-header{

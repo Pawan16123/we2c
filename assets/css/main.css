@@ -8,12 +8,13 @@
     height: 80%;
     background-image: url("https://i.imgur.com/SSJ2VoT.jpg");
     background-repeat: no-repeat;
-    background-position: left top;
+    background-position: left 100% bottom 20%;
     background-size: cover;
     /* height: 1000px; */
     text-align: center;
     margin-top: 48px;
-    height: 800px;
+    height: 900px;
+
     /* padding-top: 30px; */
     
 }
@@ -22,7 +23,7 @@
     color: white;
     text-shadow: -2px -1px 15px black;
     padding-top: 20px;
-    top: 700px;
+    top: 750px;
     font-size: xx-large;
     font-family: sans-serif;
 

@@ -4,7 +4,6 @@
 
 }
 
-
 li{
     /* text-decoration: none; */
     list-style: none;
@@ -22,9 +21,7 @@ ul{
     display: table;
 
 }
-body{
-    min-height: calc(100vh - 40px);
-}
+
 /* Navigation */
 
 .main-header{
@@ -180,8 +177,3 @@ footer li a{
 footer li a:hover{
     color: rgb(168, 154, 168);
 }
-
-
-
-
-

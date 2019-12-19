@@ -8,7 +8,7 @@
     top: 0; left: 0;
     width: 100%; height: 100%;
     background: url(../imgs/plans-background.jpg) center/cover fixed;
-    filter: blur(2px);
+    filter: blur(1px) grayscale(70%);
   }
 .our-plans{
     min-height: calc(100vh - 100px);

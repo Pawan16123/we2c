@@ -117,28 +117,6 @@ ul{
     border-top: 2px solid transparent;
 }
 
-/* Button */
-div div>button{
-    background-color: #1ebdaf7a;
-    padding: 15px;
-    border-radius: 30px;
-    position: absolute;
-    bottom: 20px;
-    left: 155px;
-    border: none;
-    font-weight: 900;
-    cursor: pointer ;
-
-}
-div div>button:hover,
-div div>button:active{
-    background: white;
-    /* color: black; */
-}
-div div>button:focus{
-    outline: none;
-}
-
 
 
 

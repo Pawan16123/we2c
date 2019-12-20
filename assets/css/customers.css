@@ -41,7 +41,7 @@
    */
 
 .testimonial__image-container{
-    width: 65%;
+    max-width: 680px;
     /* border: 2px solid black; */
     display: inline-block;
     vertical-align: middle;
@@ -60,6 +60,9 @@
     width: 30%;
     /* border: 2px solid black; */
     display: inline-block;
+}
+.testimonial__info a:hover{
+    color: rgb(0, 0, 0);
 }
 
 #customer-2{

@@ -155,3 +155,16 @@ footer li a{
 footer li a:hover{
     color: rgb(168, 154, 168);
 }
+
+/* Backdrop */
+.backdrop{
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 101;
+    background: rgba(0,0,0,0.5);
+    
+}

@@ -159,7 +159,7 @@ footer li a:hover{
 /* Backdrop */
 .backdrop{
     position: fixed;
-    display: none;
+    /* display: none; */
     top: 0;
     left: 0;
     height: 100%;

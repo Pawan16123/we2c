@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
+    <div id="modal">
+        <h1 class="modal__title">Do you want to contine?</h1>
+        <a href="pages/starthosting.html" class="modal__btn modal--yes">YES</a>
+        <button class="modal__btn modal--no">NO</button>
+    </div>
     <div class="backdrop"></div>
     <header class="main-header">
         <div><a href="index.html"  class="main-header__brand">iMac</a></div>
@@ -17,7 +22,7 @@
             <ul class="main-nav__items">
                 <li class="main-nav__item"><a href="pages/secindex.html">Packages</a></li>
                 <li class="main-nav__item"><a href="pages/customers.html">Customers</a></li>
-                <li class="main-nav__item main-nav__item--cta"><a href="start-hosting/index.html">Start Hosting</a></li>
+                <li class="main-nav__item main-nav__item--cta"><a href="pages/starthosting.html">Start Hosting</a></li>
             </ul>
         </nav>
                 
@@ -41,7 +46,7 @@
                     <li>Basic Support</li>
                 </ul>
                 <div>
-                    <button>CHOOSE PLAN</button>
+                    <button class="plan__btn">CHOOSE PLAN</button>
                 </div>
             </article>
             <article class="plan">
@@ -56,7 +61,7 @@
                     <li>Plus Support</li>
                 </ul>
                 <div>
-                    <button>CHOOSE PLAN</button>
+                    <button class="plan__btn">CHOOSE PLAN</button>
                 </div>
             </article>
             <article class="plan">
@@ -70,7 +75,7 @@
                     <li>Priority Support</li>
                 </ul>
                 <div>
-                    <button>CHOOSE PLAN</button>
+                    <button class="plan__btn">CHOOSE PLAN</button>
                 </div>
             </article>
 
@@ -278,5 +283,6 @@
             </ul>
         </nav>
     </footer>
+    <script src="assets/scripts/main.js"></script>
 </body>
 </html>

@@ -188,8 +188,41 @@ svg:first-of-type{
     width: 126px;
 }
 
-
-
+/* Modal */
+#modal{
+    display: none;
+    width: 400px;
+    height: 180px;
+    background: white;
+    position: fixed;
+    margin: 90px 0px 0px 34%;
+    text-align: center;
+    /* display: block; */
+    z-index: 300;
+    border-radius: 5px;
+}
+#modal a{
+    text-decoration: none;
+}
+.modal__title{
+    margin-top: 25px;
+}
+.modal__btn{
+    margin-top: 30px;
+    margin-right: 10px;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    width: 70px;
+    border-radius: 5px;
+}
+.modal--yes{
+    background: #3ae374;
+    padding: 5px 9px;
+}
+.modal--no{
+    background: #ff4d4d;
+    padding: 5px 3px;
+}
 
 
 

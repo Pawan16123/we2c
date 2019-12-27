@@ -5,6 +5,7 @@ var rem_bdrop = document.getElementsByClassName("modal--no");
 var modal = document.getElementById("modal");
 var mobut = document.getElementsByClassName("hamburger");
 var mobnav = document.getElementsByClassName("mobile-nav");
+// var navz = document.getElementsByClassName("main-header");
 // console.log(rem_bdrop[0]);
 // console.log(modal);
 
@@ -29,12 +30,23 @@ for (var i=0; i< btn.length; i++){
 mobut[0].addEventListener("click",function(){
     mobnav[0].style.display = "block";
     backdrop[0].style.display = "block";
+    // navz[0].style.zIndex = "100"
 })
 
 backdrop[0].addEventListener("click",function(){
     this.style.display = "none";
     mobnav[0].style.display = "none";
-})
+    // backd();
+
+});
+
+// if(modal.style.display != "block"){
+    // function backd(){
+    //     backdrop[0].addEventListener("click",function(){
+    //         this.style.display = "none";
+    //     });
+    // }
+// }
 
 // CHOOSE PLAN + BACKDROP
 for (var i=0; i<btn.length; i++){
@@ -50,5 +62,5 @@ for (var i=0; i<btn.length; i++){
 rem_bdrop[0].addEventListener("click",function(){
     backdrop[0].style.display ="none";
     modal.style.display = "none";
+    // backd();
 });
-

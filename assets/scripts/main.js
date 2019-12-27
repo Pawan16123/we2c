@@ -37,7 +37,7 @@ backdrop[0].addEventListener("click",function(){
 })
 
 // CHOOSE PLAN + BACKDROP
-for (var i=0; i< btn.length; i++){
+for (var i=0; i<btn.length; i++){
         btn[i].addEventListener("click", function(){
             backdrop[0].style.display = "block";
             modal.style.display = "block";

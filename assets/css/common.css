@@ -131,24 +131,33 @@ ul{
     background: white;
     top: 0;
     left: 0;
-    width: 300px;
-}
+    width: 70%;
+    padding-top: 30px;
 
+}
+.mobile-nav li{
+    text-align: center;
+}
 .mobile-nav__item a{
     text-decoration: none;
     margin: 20px 20px;
     font-family : 'Arial Narrow Bold', sans-serif;
     padding-bottom: 3px;
     text-align: center;
+    border-radius: 15px;
     /* color: #ff7f50; */
+    /* width: 25px; */
+
 }
 .mobile-nav__item a:hover{
     background: #32ff7e;
     /* height: 20px; */
 }
 .mobile-nav__item a:first-of-type{
-    display: block;
-    margin-top: 30px;
+    display: inline-block;
+    padding: 10px 60px;
+    width: 95px;
+
 }
 .hamburger{
     width: 38px;

@@ -37,6 +37,10 @@ ul{
 .main-header>div{
     display: inline-block;
     /* background-color: rebeccapurple; */
+    vertical-align: middle;
+    top: -7px;
+    /* right: 50px; */
+    position: relative;
 }
 .main-header__brand{
     text-decoration: none;
@@ -44,16 +48,17 @@ ul{
     color: #2f3542;
     font-family: 'Arial Narrow Bold', sans-serif;
     margin-left: 15px;
-    /* vertical-align: middle; */
-
+    vertical-align: middle;
 }
 
 .main-nav{
     display: inline-block;
     /* float: right; */
     text-align: right;
-    width: calc(100% - 75.438px);
-    
+    width: calc(100% - 110.438px);
+    vertical-align: middle;
+    position: relative;
+    top: -7px;
 }
 .main-nav__item{
     display: inline-block;
@@ -85,7 +90,7 @@ ul{
     content: " ";
     color: red;
     /* transform: scale(1) rotate(180deg); */
-    top: 23px;
+    top: 8px;
     border-top: 8px solid black;
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
@@ -137,7 +142,8 @@ ul{
 .hamburger{
     width: 38px;
     height: 30px;
-    background-color: #32ff7e;
+    /* background-color: #9ff0bd; */
+    background-color: #c3f584;;
     border: none;
 }
 
@@ -149,7 +155,9 @@ ul{
     height: 3px;
     margin-top: 3px;
 }
-
+header button:focus{
+    outline: none;
+}
 
 
 /* footer */

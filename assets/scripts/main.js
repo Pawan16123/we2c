@@ -3,6 +3,7 @@ var btn = document.getElementsByClassName("plan__btn");
 var backdrop = document.getElementsByClassName("backdrop");
 var rem_bdrop = document.getElementsByClassName("modal--no");
 var modal = document.getElementById("modal");
+var mobut = document.getElementsByClassName("hamburger");
 // console.log(rem_bdrop[0]);
 // console.log(modal);
 

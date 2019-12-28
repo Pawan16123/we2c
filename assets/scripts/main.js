@@ -36,6 +36,7 @@ mobut[0].addEventListener("click",function(){
 backdrop[0].addEventListener("click",function(){
     this.style.display = "none";
     mobnav[0].style.display = "none";
+    modal.style.display = "none";
     // backd();
 
 });

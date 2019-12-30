@@ -11,7 +11,7 @@
     background: radial-gradient( rgba(20, 4, 4, 0.11) 0%, rgba(32, 29, 29, 0.274) 59%, rgba(68, 2, 2, 0.65) 100%), url("../imgs/BatmanVsArkhamKnight.jpg") no-repeat fixed;
     height: 200px;
     background-repeat: no-repeat;
-    background-position: left 55% top;
+    background-position: left 52% top;
     background-size: cover;
     /* height: 1000px; */
     text-align: center;
@@ -29,6 +29,14 @@
     font-size: xx-large;
     font-family: sans-serif;
 
+}
+
+@media(max-width:640px){
+    #product-overview h1{
+        top: 80vh;
+        opacity: 0.6;
+        font-size: x-large;
+    }
 }
 
 /* Choose your plan */

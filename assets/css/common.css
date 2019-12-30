@@ -122,6 +122,11 @@ ul{
     border-top: 2px solid transparent;
 }
 
+@media(max-width:640px){
+    .main-nav{
+        visibility: hidden;
+    }
+}
 
 /* Mobile navigation */
 .mobile-nav{
@@ -179,6 +184,13 @@ header button:focus{
     outline: none;
 }
 
+@media(min-width: 640px){
+    .hamburger{
+        padding-left: 3px;
+        visibility: hidden;
+    }
+
+}
 
 /* footer */
 footer{

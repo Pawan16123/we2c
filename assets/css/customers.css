@@ -71,3 +71,14 @@
 .test-container{
     min-height: calc(100vh - 100px);
 }
+@media(max-width:640px){
+    .testimonial__info{
+        width: 90%;
+        margin: 20px;
+    }
+    #customer-2,
+    #customer-1 {
+        text-align: center;
+    }
+
+}

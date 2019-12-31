@@ -203,11 +203,12 @@ svg:first-of-type{
     height: 180px;
     background: white;
     position: fixed;
-    margin: 90px 0px 0px 34%;
     text-align: center;
-    /* display: block; */
     z-index: 300;
     border-radius: 5px;
+    top: 30vh;
+    left: 50%;
+    margin-left: -200px;
 }
 #modal a{
     text-decoration: none;
@@ -245,9 +246,9 @@ svg:first-of-type{
         float: none;
     }
     /* Modal */
-    #modal{
+    /* #modal{
         margin-left: 20%;
-    }
+    } */
 
     /* Stick around */
     .stick li{

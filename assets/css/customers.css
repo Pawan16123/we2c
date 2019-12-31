@@ -74,11 +74,19 @@
 @media(max-width:640px){
     .testimonial__info{
         width: 90%;
-        margin: 20px;
+        margin: 0px;
     }
     #customer-2,
     #customer-1 {
         text-align: center;
     }
+
+    .test-container .testimonial__image-container:nth-of-type(1){
+        margin-bottom: 0px;
+    }
+    .test-container .testimonial__image-container:nth-of-type(2){
+        margin-top: 30px;
+    }
+
 
 }

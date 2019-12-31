@@ -59,6 +59,7 @@ ul{
     vertical-align: middle;
     position: relative;
     top: -7px;
+    /* transition: 0.2s; */
 }
 .main-nav__item{
     display: inline-block;
@@ -122,11 +123,6 @@ ul{
     border-top: 2px solid transparent;
 }
 
-@media(max-width:640px){
-    .main-nav{
-        visibility: hidden;
-    }
-}
 
 /* Mobile navigation */
 .mobile-nav{
@@ -170,6 +166,7 @@ ul{
     /* background-color: #9ff0bd; */
     background-color: #c3f584;;
     border: none;
+    transition: 0.2s;
 }
 
 .hambar{
@@ -182,14 +179,6 @@ ul{
 }
 header button:focus{
     outline: none;
-}
-
-@media(min-width: 640px){
-    .hamburger{
-        padding-left: 3px;
-        visibility: hidden;
-    }
-
 }
 
 /* footer */
@@ -238,4 +227,30 @@ footer li a:hover{
 /* content */
 .fullvp{
     height: calc(100vh - 100px);
+}
+
+@media(max-width:640px){
+    /* Navbar menu */
+    .main-nav{
+        visibility: hidden;
+    }
+
+    /* Footer */
+    footer li{
+        margin-top: 7.5%;
+    }
+}
+
+@media(min-width: 640px){
+
+    /* Header */
+    .hamburger{
+        padding-left: 3px;
+        visibility: hidden;
+    }
+    button.hamburger{
+        /* width: 0px; */
+        background-color: red;
+    }
+
 }

@@ -231,7 +231,33 @@ svg:first-of-type{
     background: #ff4d4d;
     padding: 5px 3px;
 }
+@media(max-width: 640px){
 
+    /* Plans */
+
+    #plans{
+        text-align: center;
+    }
+    .plan{
+        display: inline-block;
+        width: 75%;
+        margin-bottom: 25px;
+        float: none;
+    }
+    /* Modal */
+    #modal{
+        margin-left: 20%;
+    }
+
+    /* Stick around */
+    .stick li{
+    display: inline; 
+    width: max-content;
+    position: relative;
+    min-height: 205px;
+    text-align: center;
+    }
+}
 
 
 

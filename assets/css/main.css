@@ -246,9 +246,9 @@ svg:first-of-type{
         float: none;
     }
     /* Modal */
-    /* #modal{
-        margin-left: 20%;
-    } */
+    #modal{
+        transform: scale(0.75,0.8);
+    }
 
     /* Stick around */
     .stick li{

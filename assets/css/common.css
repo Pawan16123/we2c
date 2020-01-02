@@ -187,18 +187,13 @@ footer{
     height: 100px;
     text-align: center;
     position: relative;
-    /* vertical-align: middle; */
-}
-footer nav{
-    height: 30px;
-    /* position: absolute; */
-    vertical-align: middle;
 }
 
 footer li{
     display: inline-block;
     margin-left: 25px;
-    margin-top: 2.5%;
+    position: relative;
+    top: 36px;
 }
 footer li a{
     font-family: 'Arial Narrow Bold', sans-serif;
@@ -235,10 +230,6 @@ footer li a:hover{
         visibility: hidden;
     }
 
-    /* Footer */
-    footer li{
-        margin-top: 5.5%;
-    }
 }
 
 @media(min-width: 640px){

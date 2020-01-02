@@ -76,6 +76,10 @@
         width: 90%;
         margin: 0px;
     }
+    #customer-1 .testimonial__info{
+        margin-bottom: 25px; 
+
+    }
     #customer-2,
     #customer-1 {
         text-align: center;

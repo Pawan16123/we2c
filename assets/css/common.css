@@ -89,7 +89,6 @@ ul{
 .main-nav__item a::after{
     position: absolute;
     content: " ";
-    color: red;
     /* transform: scale(1) rotate(180deg); */
     top: 8px;
     border-top: 8px solid black;

@@ -60,6 +60,7 @@
     width: 30%;
     /* border: 2px solid black; */
     display: inline-block;
+    padding: 20px;
 }
 .testimonial__info a:hover{
     color: rgb(0, 0, 0);

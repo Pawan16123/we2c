@@ -21,6 +21,14 @@ ul{
     display: table;
 
 }
+/* logo */
+.main-header__brand img{
+    width: 90px;
+    height: 60px;
+    position: fixed;
+    top: 3px;
+    left: 30px;
+}
 
 /* Navigation */
 
@@ -47,7 +55,7 @@ ul{
     font-weight: bolder;
     color: #2f3542;
     font-family: 'Arial Narrow Bold', sans-serif;
-    margin-left: 15px;
+    margin-left: 60px;
     vertical-align: middle;
 }
 

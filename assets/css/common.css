@@ -174,7 +174,7 @@ ul{
     width: 38px;
     height: 30px;
     /* background-color: #9ff0bd; */
-    background-color: #c3f584;;
+    background-color: #c3f58900;;
     border: none;
     transition: 0.2s;
 }
@@ -182,7 +182,7 @@ ul{
 .hambar{
     width: 20px;
     color: green;
-    background: green;
+    background: black;
     display: block;
     height: 3px;
     margin-top: 3px;

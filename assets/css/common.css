@@ -33,7 +33,9 @@ ul{
 /* Navigation */
 
 .main-header{
-    background-color: #c3f584;
+    /* background-color: #c3f584; */
+    background-image: linear-gradient(187deg, #1E0000 25%, #b9abcf 59% , #1E0000 92%);
+    /* background-image: linear-gradient(35deg, #2b1331 45%, #b9abcf 121%); */
     width: 100%;
     padding: 15px 0px;
     position: fixed;
@@ -80,6 +82,7 @@ ul{
 
 .main-nav__item a{
     text-decoration: none;
+    color: white;
     margin: 20px 20px;
     font-family : 'Arial Narrow Bold', sans-serif;
     padding-bottom: 3px;
@@ -228,7 +231,7 @@ footer li a:hover{
 
 /* content */
 .fullvp{
-    height: calc(100vh - 100px);
+    height: calc(100vh - 180px);
 }
 
 @media(max-width:640px){

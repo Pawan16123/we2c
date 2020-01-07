@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../assets/css/starthosting.css">
 </head>
 <body>
-    <div class="container">
+    <div class="backdrop"></div>
         <header class="main-header">
                 <button class="hamburger">
                         <span class="hambar"></span>
@@ -34,16 +34,17 @@
                         <li class="mobile-nav__item mobile-nav__item--cta"><a href="./starthosting.html">Start Hosting</a></li>
                 </ul>
             </nav>
+            <div class="container">
     
                 <main class="signup-page fullvp">
                     <h1 class="signup-title">Awesome! Let's dive right in!</h1>
                     <form action="index.html" class="signup-form">
                         <label for="title">Title</label>
+                        <label for="first-name">First name</label>
                         <select id="title">
                             <option value="mr">Mr.</option>
                             <option value="ms">Ms.</option>
                         </select>
-                        <label for="first-name">First name</label>
                         <input type="text" id="first-name">
                         <label for="last-name">Last name</label>
                         <input type="text" id="last-name">
@@ -58,6 +59,7 @@
                         <button type="submit" class="button">Sign Up</button>
                     </form>
                 </main>
+            </div>
 
         <footer>
             <nav>
@@ -67,7 +69,6 @@
                 </ul>
             </nav>
         </footer>
-    </div>
     <script src="../assets/scripts/main.js"></script>
 </body>
 </html>

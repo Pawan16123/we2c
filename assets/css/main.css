@@ -38,6 +38,9 @@
         opacity: 0.6;
         font-size: x-large;
     }
+    #product-overview{
+        margin-top: inherit;
+    }
 }
 
 /* Choose your plan */

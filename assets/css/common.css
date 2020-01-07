@@ -177,7 +177,8 @@ ul{
     /* background-color: #9ff0bd; */
     background-color: #c3f58900;;
     border: none;
-    transition: 0.2s;
+    transition: 0.1s;
+    padding-top: 12px;
 }
 
 .hambar{
@@ -240,7 +241,10 @@ footer li a:hover{
     .main-nav{
         visibility: hidden;
     }
-
+    .main-header{
+        padding: 10px 0px;
+    }
+    
 }
 
 @media(min-width: 640px){
@@ -249,10 +253,6 @@ footer li a:hover{
     .hamburger{
         padding-left: 3px;
         visibility: hidden;
-    }
-    button.hamburger{
-        /* width: 0px; */
-        background-color: red;
     }
 
 }

@@ -29,6 +29,16 @@ ul{
     top: 3px;
     left: 30px;
 }
+/* random */
+
+.logo__large{
+    /* .main-header__brand img { */
+        width: max-content !important;
+        height: max-content !important;
+        position: fixed !important;
+        left: 50% !important;
+        transform: translateX(-512px);
+}
 
 /* Navigation */
 
@@ -243,6 +253,12 @@ footer li a:hover{
     }
     .main-header{
         padding: 10px 0px;
+    }
+    .logo__large{
+        width: 600px !important;
+        height: unset !important;
+        top: 115px !important;
+        transform: translateX(-300px);
     }
     
 }

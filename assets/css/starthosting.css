@@ -1,6 +1,5 @@
 .container{
     margin-top: 81px;
-    /* height: calc( 100vh - 180px); */
     /* padding-bottom:100px; */
     padding: 0 15% 100px 15%;
 }
@@ -104,4 +103,10 @@ select{
         width: 89%;
     }
     
+}
+@media(min-height:800px){
+    .container{
+        height: calc( 100vh - 200px);
+
+    }
 }

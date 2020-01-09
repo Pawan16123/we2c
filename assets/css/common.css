@@ -28,17 +28,9 @@ ul{
     position: fixed;
     top: 3px;
     left: 30px;
+    transition: 2s;
 }
-/* random */
 
-.logo__large{
-    /* .main-header__brand img { */
-        width: max-content !important;
-        height: max-content !important;
-        position: fixed !important;
-        left: 50% !important;
-        transform: translateX(-512px);
-}
 
 /* Navigation */
 
@@ -246,6 +238,18 @@ footer li a:hover{
     height: calc(100vh - 180px);
 }
 
+/* random */
+
+.logo__large{
+    /* .main-header__brand img { */
+        width: max-content !important;
+        height: max-content !important;
+        position: fixed !important;
+        left: 50% !important;
+        transform: translateX(-512px);
+        /* transform: scaleY(1.1); */
+}
+
 @media(max-width:640px){
     /* Navbar menu */
     .main-nav{
@@ -272,3 +276,6 @@ footer li a:hover{
     }
 
 }
+
+
+

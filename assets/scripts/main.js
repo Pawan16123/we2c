@@ -6,7 +6,8 @@ var modal = document.getElementById("modal");
 var mobut = document.getElementsByClassName("hamburger");
 var mobnav = document.getElementsByClassName("mobile-nav");
 var largeLogo = document.getElementById("product-overview");
-console.log(largeLogo);
+var aud = document.getElementById("myAudio");
+console.log(aud);
 // var navz = document.getElementsByClassName("main-header");
 // console.log(rem_bdrop[0]);
 // console.log(modal);
@@ -70,5 +71,6 @@ rem_bdrop[0].addEventListener("click",function(){
 
 largeLogo.addEventListener("dblclick",function(){
     document.getElementById("logo").classList.add("logo__large");
-    console.log(document.getElementById("logo"));
-})
+    aud.play();
+    // console.log(document.getElementById("logo"));
+});

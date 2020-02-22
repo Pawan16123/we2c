@@ -32,13 +32,15 @@ for (var i=0; i< btn.length; i++){
 
 mobut[0].addEventListener("click",function(){
     mobnav[0].style.display = "block";
+    mobnav[0].style.transform = "translateX(0)";
     backdrop[0].style.display = "block";
     // navz[0].style.zIndex = "100"
 })
 
 backdrop[0].addEventListener("click",function(){
     this.style.display = "none";
-    mobnav[0].style.display = "none";
+    // mobnav[0].style.display = "none";
+    mobnav[0].style.transform = "translateX(-100%)";
     modal.style.display = "none";
     // backd();
 

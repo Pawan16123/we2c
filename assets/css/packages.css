@@ -53,6 +53,7 @@
 .our-plan:nth-child(1) a{
     margin-top: 49px;
     position: relative;
+    overflow: hidden;
 
 }
 .our-plan:last-child h1{
@@ -83,7 +84,9 @@ h2.recom{
     font-size: large;
     margin: 15px;
     background-color: coral;
-
+    width: 220px;
+    text-align: center;
+    transform: rotate(45deg) translate(70px, -30px);
 
 }
 
